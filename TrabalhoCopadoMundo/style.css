@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;  /* centralizar tbl */
+    width: 1000px;
+    table-layout: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(270deg, #141E30, #243B55);
+    color: #ffffff;
+}
+
+h1{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 10px; /*espaço de 10px abaixo do título.*/
+    letter-spacing: 1px; /*controla o espaço entre as letras de um texto.*/
+}
+
+h2{
+    font-size: 20px;
+    color: #b7dcd2;
+    font-weight: normal; 
+    max-width: 800px;  /*define a largura máxima do elemento*/
+    margin: 0 auto;     /*centralizar o texto.*/
+    line-height: 1.5;       /*altura da linha para facilitar a leitura.*/
+}
+
+td,th{
+    border-bottom: 1px solid #1f4d45; /* adicionar linhas abaixo do paragrafo */
+    width: 10%;                     /* largura dos paragrafo */
+    text-align: center;              /* centralizar texto */
+    padding: 15px;                  /* não deixar o texto colado na margem, para melhorar a visualizaçao */
+}
+
+.alinhamentoEsquerda{
+    text-align: left;
+}
+
+td:nth-child(3),th:nth-child(3){
+    width:20%;                  /* ajuste da 3ª coluna */
+}
+
+.LarguradaLinha{
+    height: 30px;
+}
+
+th{
+    color: whitesmoke;
+        
+}
+
+.fundoBr{
+    border-bottom: none !important;  /* retirar borda preta */
+    background-color: rgba(198, 198, 198, 0.341);
+    color: white;
+    border: none !important;  /* retirar borda preta */
+}
+
+summary{
+    color: pink;
+}
+
+table{
+    background-color: #132f2b;
+}
+
